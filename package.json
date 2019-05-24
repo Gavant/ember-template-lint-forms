@@ -1,5 +1,5 @@
 {
-  "name": "ember-template-lint-forms",
+  "name": "@gavant/ember-template-lint-forms",
   "version": "0.0.1",
   "description": "Ember handlebars template linter rules for validating form elements",
   "main": "index.js",

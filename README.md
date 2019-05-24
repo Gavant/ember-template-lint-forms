@@ -4,14 +4,14 @@ Ember handlebars template linter rules for validating form elements. This plugin
 ## Installation
 
 ```
-yarn add --dev ember-template-lint-forms
+yarn add --dev @gavant/ember-template-lint-forms
 ```
 
 Then update your `template-lintrc.js` file to contain the following:
 ```
 module.exports = {
-    extends: ['recommended', 'ember-template-lint-forms:forms'],
-    plugins: ['ember-template-lint-forms'],
+    extends: ['recommended', '@gavant/ember-template-lint-forms:forms'],
+    plugins: ['@gavant/ember-template-lint-forms'],
     rules: {
         ....
     }
