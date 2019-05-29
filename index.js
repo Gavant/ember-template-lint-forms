@@ -1,6 +1,6 @@
 /* eslint-env node */
 module.exports = {
-    name: 'ember-template-lint-forms',
+    name: '@gavant/ember-template-lint-forms',
     rules: {
         'require-maxlength': require('./rules/require-maxlength')
     },
